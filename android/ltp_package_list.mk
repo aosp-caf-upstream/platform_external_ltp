@@ -458,8 +458,6 @@ ltp_packages := \
   ltp_getrlimit02 \
   ltp_getrusage01 \
   ltp_getrusage02 \
-  ltp_getrusage03 \
-  ltp_getrusage03_child \
   ltp_getrusage04 \
   ltp_getsid01 \
   ltp_getsid02 \
@@ -539,7 +537,6 @@ ltp_packages := \
   ltp_ksm03 \
   ltp_ksm04 \
   ltp_ksm06 \
-  ltp_leapsec_timer \
   ltp_lftest \
   ltp_lgetxattr01 \
   ltp_lgetxattr02 \
@@ -815,6 +812,10 @@ ltp_packages := \
   ltp_preadv02_64 \
   ltp_print_caps \
   ltp_proc01 \
+  ltp_process_vm01 \
+  ltp_process_vm_readv02 \
+  ltp_process_vm_readv03 \
+  ltp_process_vm_writev02 \
   ltp_pselect01 \
   ltp_pselect01_64 \
   ltp_pselect02 \
@@ -1350,24 +1351,6 @@ ltp_packages := \
   ltp_testcases_bin_ftrace_regression01.sh \
   ltp_testcases_bin_ftrace_regression02.sh \
   ltp_testcases_bin_ftrace_stress_ftrace_buffer_size_kb.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_current_tracer.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_ftrace_enabled.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_function_profile_enabled.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_set_event.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_set_ftrace_filter.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_set_ftrace_pid.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_stack_max_size.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_stack_trace.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_trace.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_trace_clock.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_trace_options.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_trace_pipe.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_trace_stat.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_tracing_cpumask.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_tracing_enabled.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_tracing_max_latency.sh \
-  ltp_testcases_bin_ftrace_stress_ftrace_tracing_on.sh \
-  ltp_testcases_bin_ftrace_stress_test.sh \
   ltp_testcases_bin_gdb01.sh \
   ltp_testcases_bin_geneve01.sh \
   ltp_testcases_bin_get_ifname \
